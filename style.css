@@ -24,6 +24,11 @@ body {
 .board {
     display: grid;
     border: 1px solid black;
-    width: 500px;
+    width: 600px;
     height: 500px;
+}
+
+#msg {
+    font-size: 30x;
+    font-weight: 700;
 }

@@ -10,14 +10,15 @@
 <body>
     <h1>Etch-a-Sketch</h1>
     <div class="header">
-        <h6>Select the size</h6>
+        <h4>Select the size</h4>
         <button id="popup" class="btn btn-danger">Select</button>
     </div>
+    <p id="msg"></p>
     <div class="board"></div>
     <div class="footer">
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-warning">Random</button>
-        <button class="btn btn-primary">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-warning" onclick="setColor('random')">Rainbow Mode</button>
+        <button class="btn btn-primary" onclick="resetBoard()">Reset</button>
     </div>
     <script src="main.js"></script>
 </body>
